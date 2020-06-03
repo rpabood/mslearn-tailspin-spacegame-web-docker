@@ -41,4 +41,4 @@ stages:
       inputs:
        appName: $(WebAppName)
        azureSubscription: 'Developer'
-       imageName: $(RegistryName)/$(webRepository):$(build.buildId)
+       imageName: $(tailspinspacegame11792.azurecr.io)/$(webRepository):$(build.buildId)
