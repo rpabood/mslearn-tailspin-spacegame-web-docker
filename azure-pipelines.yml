@@ -40,5 +40,5 @@ stages:
     - task: AzureWebAppContainer@1
       inputs:
        appName: $(WebAppName)
-       azureSubscription: 'Developer'
-       imageName: $(tailspinspacegame11792.azurecr.io)/$(webRepository):$(build.buildId)
+       azureSubscription: 'Resource Manager - Tailspin - Space Game'
+       imageName: $(RegistryName)/$(webRepository):$(build.buildId)
