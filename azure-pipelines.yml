@@ -40,5 +40,5 @@ stages:
     - task: AzureWebAppContainer@1
       inputs:
        appName: $(WebAppName)
-       azureSubscription: 'Space Game - web - Docker'
+       azureSubscription: 'Container Registry Connection'
        imageName: $(RegistryName)/$(webRepository):$(build.buildId)
